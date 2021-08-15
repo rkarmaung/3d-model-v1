@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0d98e;
+    overflow-x: hidden;
+    height: 90vh;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#Model {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 900;
+    max-width: 1440px;
+    margin: 100vh auto 0 auto;
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+}
